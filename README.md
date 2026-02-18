@@ -1,43 +1,66 @@
-Objective
+# Period Close Process Analysis
 
-Analyze why the month-end financial close is delayed and recommend process improvements to reduce timeline variability.
+A business process analytics case study analyzing why month-end financial close timelines become unpredictable and how workflow redesign can improve reporting efficiency.
 
-Problem
+---
 
-Organizations often struggle with unpredictable closing timelines due to dependencies across departments and manual reconciliation activities.
+## Objective
+To identify operational bottlenecks in the month-end close process and recommend improvements that reduce close cycle variability and improve reporting reliability.
 
-Approach
+---
 
-Built a synthetic close calendar dataset
+## Business Problem
+Organizations often struggle to close books on a predictable schedule due to:
+- Dependencies across multiple departments
+- Manual reconciliation activities
+- Sequential workflow structure
+- Late arrival of operational inputs
 
-Identified performance trends across months
+---
 
-Detected bottlenecks using delay analysis and heatmaps
+## Methodology
 
-Assigned responsibility using departmental delay contribution
+1. Simulated a multi-month close calendar dataset
+2. Measured close cycle performance trends
+3. Identified bottleneck activities using delay analysis
+4. Assigned responsibility through departmental contribution
+5. Analyzed workflow behavior using timeline modeling (Gantt)
+6. Proposed an optimized parallel close structure
 
-Analyzed workflow behavior using Gantt timeline
+---
 
-Proposed an optimized parallel close structure
+## Key Insights
 
-Key Insights
+- Close delays originate **before reporting stage**
+- Reconciliation and accrual adjustments are primary bottlenecks
+- Workflow is sequential instead of parallel
+- Small delays accumulate into major close slippage
+- Responsibility lies with upstream shared services rather than accounting workload
 
-Delays originate upstream before reporting stage
+---
 
-Reconciliation and accrual adjustments are primary bottlenecks
+## Recommendation
 
-Workflow is sequential rather than parallel
+Shift from a sequential close to a parallel close structure:
 
-Small delays accumulate to create significant close slippage
+**Process Improvements**
+- Early cut-off deadlines
+- Standardized close calendar
+- Parallel task execution
 
-Recommendation
+**Automation Opportunities**
+- Automated reconciliations
+- Scheduled journal entries
+- Validation rules for adjustments
 
-Shift from sequential close → parallel close calendar:
+**Coordination Controls**
+- Department submission SLAs
+- Close tracking dashboard
+- Escalation triggers
 
-Early cut-off deadlines
+**Expected Outcome:**  
+More predictable close timelines and faster decision-ready financial reporting.
 
-Automated reconciliations
+---
+## 📂 Project Structure
 
-Department submission SLAs
-
-Expected impact: Reduced close duration variability and improved reporting predictability.
